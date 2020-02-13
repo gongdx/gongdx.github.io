@@ -45,7 +45,7 @@
 <body>
     <div class="content">
         <h3>每想你一次，时间就跳动一次，你可知，这跳动的不只是时间，更是我思念的心。</h3>
-        <h2>宝贝，我们已经在一起了</h2>
+        <h2>宝贝，我们已经在一起</h2>
         <div class="timer">
             <b id="d"></b> Days <b id="h"></b> Hours <b id="m"></b> Minutes <b id="s"></b> Seconds
         </div>
@@ -53,7 +53,7 @@
 
     <script>
         function timer() {
-            var start = new Date(2019, 4, 14); // 2015.7.2
+            var start = new Date(2019, 3, 14); // 2015.7.2
             console.log(start)
             var t = new Date() - start;
             var h = ~~(t / 1000 / 60 / 60 % 24);
